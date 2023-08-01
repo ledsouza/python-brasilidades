@@ -1,6 +1,6 @@
-from cpf_cnpj import Documento
+from TelefonesBr import TelefonesBr
 
-cpf = 87596504000
+telefone = "552126481234"
+telefone_objeto = TelefonesBr(telefone)
 
-cpf_formatado = Documento.criar_novo(cpf)
-print(cpf_formatado)
+print(telefone_objeto)
