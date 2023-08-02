@@ -1,6 +1,25 @@
 import re
 
 class TelefonesBr:
+    """Representa um número de telefone brasileiro.
+
+    Esta classe permite validar e formatar números de telefone no formato brasileiro.
+    O padrão considerado é o seguinte: DDD (opcional) + Número com 8 ou 9 dígitos.
+
+    Args:
+        telefone (str): O número de telefone a ser validado e formatado.
+
+    Raises:
+        ValueError: Se o número de telefone fornecido não estiver no formato correto.
+
+    Attributes:
+        numero (str): O número de telefone formatado, incluindo o DDD quando presente.
+
+    Methods:
+        valida_telefone(telefone): Verifica se o número de telefone fornecido é válido.
+        format_numero(): Formata o número de telefone no padrão com DDD e hífen.
+
+    """
     def __init__(self, telefone) -> None:
         if self.valida_telefone(telefone):
             self.numero = telefone
