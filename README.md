@@ -12,7 +12,7 @@ Projeto de validação de dados no padrão nacional
 | :books: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Python Brasilidades**
-| :label: Tecnologias | python (API, Web Services, HTTP)
+| :label: Tecnologias | python, API, Web Services, HTTP
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://vitrinedev.s3.amazonaws.com/python-brasilidades.png#vitrinedev)
